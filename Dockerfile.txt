@@ -1,4 +1,2 @@
 FROM jvamane/bwce-baseimg:1.0
-COPY POC1_1.0.0.ear /path/to/deploy/
-WORKDIR /path/to/deploy/
-CMD ["java", "-jar", "bwce-runtime.jar"]
+COPY POC1_1.0.0.ear .
